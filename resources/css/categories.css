@@ -1,0 +1,174 @@
+/* Base category list styling */
+.uk-category-list {
+    margin: 25px 0;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 25px;
+    transition: all 0.3s ease;
+    border-left: 5px solid #1e87f0;
+}
+
+.uk-category-list:hover {
+    box-shadow: 0 15px 35px rgba(30, 135, 240, 0.15);
+    transform: translateY(-3px);
+}
+
+/* Card title animation */
+.uk-category-list .uk-card-title {
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.uk-category-list .uk-card-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #1e87f0, #39a0ff);
+    transition: width 0.4s ease;
+}
+
+.uk-category-list:hover .uk-card-title::after {
+    width: 120px;
+}
+
+/* List items styling and animations */
+.uk-category-list .uk-list-divider > li {
+    padding: 16px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.uk-category-list .uk-list-divider > li:last-child {
+    border-bottom: none;
+}
+
+.uk-category-list .uk-list-divider > li:hover {
+    background-color: rgba(30, 135, 240, 0.05);
+    padding-left: 25px;
+    transform: translateX(5px);
+    border-bottom-color: transparent;
+}
+
+.uk-category-list .uk-list-divider > li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: rgba(30, 135, 240, 0.1);
+    transition: width 0.3s ease;
+    z-index: 0;
+}
+
+.uk-category-list .uk-list-divider > li:hover::before {
+    width: 100%;
+}
+
+/* Link styling with icon and animations */
+.uk-category-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem;
+    color: #444;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.uk-category-link:hover {
+    color: #1e87f0;
+    transform: translateX(5px);
+}
+
+.uk-category-link::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(135deg, #1e87f0, #39a0ff);
+    border-radius: 50%;
+    margin-right: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 0 rgba(30, 135, 240, 0.4);
+    animation: pulse 2s infinite;
+}
+
+/* Pulsing animation for the dot */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(30, 135, 240, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(30, 135, 240, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(30, 135, 240, 0);
+    }
+}
+
+.uk-category-link:hover::before {
+    transform: scale(1.8);
+    box-shadow: 0 0 15px rgba(30, 135, 240, 0.6);
+    background: #1e87f0;
+    animation: none;
+}
+
+/* Empty message styling */
+.uk-empty-message {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 35px 0;
+    opacity: 0.8;
+    animation: fadeInUp 0.5s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translateY(0);
+    }
+}
+
+/* Loading animation for items */
+.uk-category-list .uk-list-divider > li {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Staggered animation delay for list items */
+.uk-category-list .uk-list-divider > li:nth-child(1) { animation-delay: 0.1s; }
+.uk-category-list .uk-list-divider > li:nth-child(2) { animation-delay: 0.2s; }
+.uk-category-list .uk-list-divider > li:nth-child(3) { animation-delay: 0.3s; }
+.uk-category-list .uk-list-divider > li:nth-child(4) { animation-delay: 0.4s; }
+.uk-category-list .uk-list-divider > li:nth-child(5) { animation-delay: 0.5s; }
+.uk-category-list .uk-list-divider > li:nth-child(n+6) { animation-delay: 0.6s; }

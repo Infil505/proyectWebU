@@ -1,0 +1,286 @@
+ID,Nombre,Tipo,Marca,Precio,Descuento (%),Precio final,Stock,Descripcion corta,category_id
+1,Carretera Bontrager Modelo 196,Carretera,Bontrager,2791.31,0,2791.31,45,Carretera de alta calidad marca Bontrager. Ideal para usuarios exigentes.,3
+2,Carretera Specialized Modelo 182,Carretera,Specialized,1754.68,10,1579.21,47,Carretera de alta calidad marca Specialized. Ideal para usuarios exigentes.,3
+3,Casco Scott Modelo 192,Casco,Scott,644.24,5,612.03,46,Casco de alta calidad marca Scott. Ideal para usuarios exigentes.,3
+4,Electrica Giant Modelo 770,Electrica,Giant,453.03,10,407.73,47,Electrica de alta calidad marca Giant. Ideal para usuarios exigentes.,4
+5,Cadena Trek Modelo 662,Cadena,Trek,188.57,20,150.86,7,Cadena de alta calidad marca Trek. Ideal para usuarios exigentes.,1
+6,Neumatico Bontrager Modelo 550,Neumatico,Bontrager,1903.93,15,1618.34,31,Neumatico de alta calidad marca Bontrager. Ideal para usuarios exigentes.,2
+7,Candado RockShox Modelo 959,Candado,RockShox,242.42,20,193.94,25,Candado de alta calidad marca RockShox. Ideal para usuarios exigentes.,4
+8,Carretera Specialized Modelo 134,Carretera,Specialized,1564.21,20,1251.37,4,Carretera de alta calidad marca Specialized. Ideal para usuarios exigentes.,3
+9,Cassette RockShox Modelo 396,Cassette,RockShox,2926.34,15,2487.39,11,Cassette de alta calidad marca RockShox. Ideal para usuarios exigentes.,3
+10,Carretera Giant Modelo 988,Carretera,Giant,1341.73,15,1140.47,43,Carretera de alta calidad marca Giant. Ideal para usuarios exigentes.,2
+11,Neumatico Scott Modelo 693,Neumatico,Scott,1819.36,10,1637.42,20,Neumatico de alta calidad marca Scott. Ideal para usuarios exigentes.,3
+12,Casco Trek Modelo 883,Casco,Trek,1257.71,0,1257.71,48,Casco de alta calidad marca Trek. Ideal para usuarios exigentes.,3
+13,Montana Shimano Modelo 573,Montana,Shimano,602.12,0,602.12,20,Montana de alta calidad marca Shimano. Ideal para usuarios exigentes.,2
+14,Electrica RockShox Modelo 845,Electrica,RockShox,2409.44,0,2409.44,45,Electrica de alta calidad marca RockShox. Ideal para usuarios exigentes.,4
+15,Paseo RockShox Modelo 240,Paseo,RockShox,51.7,20,41.36,36,Paseo de alta calidad marca RockShox. Ideal para usuarios exigentes.,2
+16,Timbre Giant Modelo 222,Timbre,Giant,842.16,0,842.16,15,Timbre de alta calidad marca Giant. Ideal para usuarios exigentes.,1
+17,Electrica Giant Modelo 836,Electrica,Giant,2775.88,0,2775.88,31,Electrica de alta calidad marca Giant. Ideal para usuarios exigentes.,2
+18,Cassette Giant Modelo 183,Cassette,Giant,1879.18,5,1785.22,50,Cassette de alta calidad marca Giant. Ideal para usuarios exigentes.,3
+19,Casco SRAM Modelo 938,Casco,SRAM,1553.67,15,1320.62,2,Casco de alta calidad marca SRAM. Ideal para usuarios exigentes.,3
+20,Carretera Bontrager Modelo 338,Carretera,Bontrager,1427.51,20,1142.01,43,Carretera de alta calidad marca Bontrager. Ideal para usuarios exigentes.,2
+21,Cassette Giant Modelo 244,Cassette,Giant,1164.11,20,931.29,23,Cassette de alta calidad marca Giant. Ideal para usuarios exigentes.,3
+22,Timbre Bontrager Modelo 456,Timbre,Bontrager,1996.8,0,1996.8,23,Timbre de alta calidad marca Bontrager. Ideal para usuarios exigentes.,1
+23,Frenos Specialized Modelo 784,Frenos,Specialized,2664.59,0,2664.59,14,Frenos de alta calidad marca Specialized. Ideal para usuarios exigentes.,3
+24,Cadena Trek Modelo 841,Cadena,Trek,785.5,15,667.67,8,Cadena de alta calidad marca Trek. Ideal para usuarios exigentes.,3
+25,Frenos Specialized Modelo 508,Frenos,Specialized,1619.71,15,1376.75,18,Frenos de alta calidad marca Specialized. Ideal para usuarios exigentes.,3
+26,Neumatico Giant Modelo 476,Neumatico,Giant,716.45,15,608.98,7,Neumatico de alta calidad marca Giant. Ideal para usuarios exigentes.,1
+27,Carretera Scott Modelo 775,Carretera,Scott,986.32,5,937.0,50,Carretera de alta calidad marca Scott. Ideal para usuarios exigentes.,3
+28,Timbre Giant Modelo 235,Timbre,Giant,135.87,10,122.28,35,Timbre de alta calidad marca Giant. Ideal para usuarios exigentes.,1
+29,Infantil SRAM Modelo 849,Infantil,SRAM,2938.06,15,2497.35,21,Infantil de alta calidad marca SRAM. Ideal para usuarios exigentes.,3
+30,Cassette RockShox Modelo 401,Cassette,RockShox,734.61,5,697.88,43,Cassette de alta calidad marca RockShox. Ideal para usuarios exigentes.,3
+31,Luz Specialized Modelo 945,Luz,Specialized,2502.69,0,2502.69,3,Luz de alta calidad marca Specialized. Ideal para usuarios exigentes.,1
+32,Electrica Scott Modelo 915,Electrica,Scott,2788.6,15,2370.31,22,Electrica de alta calidad marca Scott. Ideal para usuarios exigentes.,2
+33,Luz Shimano Modelo 161,Luz,Shimano,903.1,0,903.1,37,Luz de alta calidad marca Shimano. Ideal para usuarios exigentes.,2
+34,Timbre Shimano Modelo 780,Timbre,Shimano,884.96,20,707.97,47,Timbre de alta calidad marca Shimano. Ideal para usuarios exigentes.,1
+35,Carretera Shimano Modelo 981,Carretera,Shimano,130.75,15,111.14,35,Carretera de alta calidad marca Shimano. Ideal para usuarios exigentes.,2
+36,Cambio Trek Modelo 139,Cambio,Trek,2065.29,20,1652.23,18,Cambio de alta calidad marca Trek. Ideal para usuarios exigentes.,1
+37,Guantes Giant Modelo 558,Guantes,Giant,1495.59,0,1495.59,29,Guantes de alta calidad marca Giant. Ideal para usuarios exigentes.,1
+38,Luz Shimano Modelo 293,Luz,Shimano,928.07,0,928.07,0,Luz de alta calidad marca Shimano. Ideal para usuarios exigentes.,3
+39,Luz RockShox Modelo 101,Luz,RockShox,2418.78,5,2297.84,4,Luz de alta calidad marca RockShox. Ideal para usuarios exigentes.,4
+40,Luz RockShox Modelo 222,Luz,RockShox,1543.67,5,1466.49,1,Luz de alta calidad marca RockShox. Ideal para usuarios exigentes.,4
+41,Cadena Scott Modelo 345,Cadena,Scott,2216.26,0,2216.26,28,Cadena de alta calidad marca Scott. Ideal para usuarios exigentes.,1
+42,Casco Specialized Modelo 986,Casco,Specialized,2873.21,20,2298.57,35,Casco de alta calidad marca Specialized. Ideal para usuarios exigentes.,1
+43,Montana Giant Modelo 276,Montana,Giant,1796.5,5,1706.67,15,Montana de alta calidad marca Giant. Ideal para usuarios exigentes.,2
+44,Guantes Scott Modelo 960,Guantes,Scott,489.65,15,416.2,27,Guantes de alta calidad marca Scott. Ideal para usuarios exigentes.,2
+45,Candado Giant Modelo 283,Candado,Giant,224.07,10,201.66,2,Candado de alta calidad marca Giant. Ideal para usuarios exigentes.,3
+46,Neumatico SRAM Modelo 611,Neumatico,SRAM,434.11,5,412.4,10,Neumatico de alta calidad marca SRAM. Ideal para usuarios exigentes.,3
+47,Carretera Specialized Modelo 474,Carretera,Specialized,678.92,20,543.14,2,Carretera de alta calidad marca Specialized. Ideal para usuarios exigentes.,3
+48,Casco Shimano Modelo 839,Casco,Shimano,1867.08,10,1680.37,5,Casco de alta calidad marca Shimano. Ideal para usuarios exigentes.,1
+49,Cassette Giant Modelo 596,Cassette,Giant,2625.76,10,2363.18,30,Cassette de alta calidad marca Giant. Ideal para usuarios exigentes.,1
+50,Luz RockShox Modelo 711,Luz,RockShox,1542.55,10,1388.3,26,Luz de alta calidad marca RockShox. Ideal para usuarios exigentes.,3
+51,Electrica Scott Modelo 736,Electrica,Scott,1383.42,5,1314.25,25,Electrica de alta calidad marca Scott. Ideal para usuarios exigentes.,1
+52,Cassette SRAM Modelo 158,Cassette,SRAM,1079.18,15,917.3,41,Cassette de alta calidad marca SRAM. Ideal para usuarios exigentes.,2
+53,Paseo SRAM Modelo 461,Paseo,SRAM,1851.39,20,1481.11,27,Paseo de alta calidad marca SRAM. Ideal para usuarios exigentes.,2
+54,Montana Giant Modelo 101,Montana,Giant,1550.29,10,1395.26,24,Montana de alta calidad marca Giant. Ideal para usuarios exigentes.,3
+55,Infantil RockShox Modelo 746,Infantil,RockShox,414.49,20,331.59,36,Infantil de alta calidad marca RockShox. Ideal para usuarios exigentes.,2
+56,Cambio Trek Modelo 935,Cambio,Trek,2517.83,10,2266.05,50,Cambio de alta calidad marca Trek. Ideal para usuarios exigentes.,4
+57,Cambio Specialized Modelo 223,Cambio,Specialized,2665.65,15,2265.8,14,Cambio de alta calidad marca Specialized. Ideal para usuarios exigentes.,1
+58,Cadena Scott Modelo 310,Cadena,Scott,2021.07,10,1818.96,49,Cadena de alta calidad marca Scott. Ideal para usuarios exigentes.,2
+59,Candado Specialized Modelo 194,Candado,Specialized,1320.64,10,1188.58,6,Candado de alta calidad marca Specialized. Ideal para usuarios exigentes.,4
+60,Paseo SRAM Modelo 711,Paseo,SRAM,2892.63,10,2603.37,20,Paseo de alta calidad marca SRAM. Ideal para usuarios exigentes.,4
+61,Cambio Modelo 817,Cambio,Specialized,336.01,5,319.21,1,Cambio de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+62,Timbre Modelo 102,Timbre,Bontrager,719.96,20,575.97,11,Timbre de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+63,Infantil Modelo 159,Infantil,SRAM,481.55,0,481.55,9,Infantil de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+64,Timbre Modelo 912,Timbre,Bontrager,525.79,10,473.21,15,Timbre de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,1
+65,Timbre Modelo 881,Timbre,Shimano,447.97,15,380.77,30,Timbre de alta calidad marca Shimano. Ideal para ciclistas exigentes.,1
+66,Cadena Modelo 385,Cadena,Scott,1205.94,20,964.75,16,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+67,Cadena Modelo 584,Cadena,Scott,473.76,5,450.07,12,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+68,Cambio Modelo 648,Cambio,Trek,955.41,5,907.64,50,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,1
+69,Electrica Modelo 510,Electrica,Giant,2409.09,10,2168.18,16,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+70,Frenos Modelo 873,Frenos,Specialized,1731.71,15,1471.95,35,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+71,Electrica Modelo 314,Electrica,Scott,1086.98,5,1032.63,39,Electrica de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+72,Cadena Modelo 992,Cadena,Trek,459.17,0,459.17,44,Cadena de alta calidad marca Trek. Ideal para ciclistas exigentes.,2
+73,Neumatico Modelo 713,Neumatico,Scott,2090.38,15,1776.82,35,Neumatico de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+74,Cambio Modelo 863,Cambio,Trek,2752.4,0,2752.4,9,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,1
+75,Cambio Modelo 887,Cambio,Trek,2766.72,0,2766.72,3,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,1
+76,Candado Modelo 234,Candado,RockShox,279.65,20,223.72,3,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+77,Cassette Modelo 843,Cassette,SRAM,2605.2,10,2344.68,1,Cassette de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+78,Guantes Modelo 815,Guantes,Scott,2412.58,15,2050.69,49,Guantes de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+79,Luz Modelo 937,Luz,RockShox,2121.01,5,2014.96,28,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+80,Paseo Modelo 978,Paseo,SRAM,131.95,0,131.95,15,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+81,Cassette Modelo 836,Cassette,Giant,1594.68,20,1275.74,36,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+82,Montana Modelo 219,Montana,Giant,1416.45,10,1274.81,20,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+83,Carretera Modelo 962,Carretera,Giant,1132.26,5,1075.65,5,Carretera de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+84,Luz Modelo 172,Luz,RockShox,1544.86,15,1313.13,43,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,1
+85,Carretera Modelo 734,Carretera,Specialized,2801.24,20,2240.99,22,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+86,Timbre Modelo 875,Timbre,Shimano,602.1,15,511.79,33,Timbre de alta calidad marca Shimano. Ideal para ciclistas exigentes.,2
+87,Paseo Modelo 179,Paseo,SRAM,1965.69,0,1965.69,41,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,1
+88,Candado Modelo 882,Candado,Giant,756.0,20,604.8,19,Candado de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+89,Luz Modelo 802,Luz,Shimano,2498.44,5,2373.52,5,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,2
+90,Electrica Modelo 564,Electrica,Scott,1997.53,10,1797.78,3,Electrica de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+91,Paseo Modelo 476,Paseo,SRAM,1955.4,5,1857.63,23,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+92,Casco Modelo 768,Casco,Specialized,1805.41,20,1444.33,24,Casco de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+93,Cassette Modelo 480,Cassette,RockShox,1559.71,10,1403.74,40,Cassette de alta calidad marca RockShox. Ideal para ciclistas exigentes.,1
+94,Neumatico Modelo 554,Neumatico,Bontrager,350.44,10,315.4,8,Neumatico de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+95,Cassette Modelo 298,Cassette,Giant,692.35,5,657.73,32,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+96,Carretera Modelo 616,Carretera,Specialized,2315.55,5,2199.77,32,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+97,Electrica Modelo 832,Electrica,Giant,1206.64,15,1025.64,21,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+98,Carretera Modelo 166,Carretera,Scott,1333.49,15,1133.47,35,Carretera de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+99,Cadena Modelo 503,Cadena,Scott,864.22,0,864.22,38,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+100,Casco Modelo 610,Casco,SRAM,2737.37,0,2737.37,48,Casco de alta calidad marca SRAM. Ideal para ciclistas exigentes.,2
+101,Carretera Modelo 594,Carretera,Giant,336.13,0,336.13,45,Carretera de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+102,Luz Modelo 572,Luz,Shimano,1111.77,0,1111.77,28,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,4
+103,Montana Modelo 856,Montana,Giant,1582.37,20,1265.9,13,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,2
+104,Luz Modelo 316,Luz,RockShox,2142.61,0,2142.61,20,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+105,Candado Modelo 416,Candado,RockShox,167.24,5,158.88,39,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+106,Casco Modelo 324,Casco,Scott,638.54,0,638.54,33,Casco de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+107,Luz Modelo 577,Luz,Shimano,622.55,0,622.55,35,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,1
+108,Cadena Modelo 989,Cadena,Trek,2066.97,0,2066.97,22,Cadena de alta calidad marca Trek. Ideal para ciclistas exigentes.,3
+109,Cassette Modelo 462,Cassette,SRAM,834.23,5,792.52,47,Cassette de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+110,Electrica Modelo 918,Electrica,RockShox,307.7,5,292.31,34,Electrica de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+111,Cambio Modelo 686,Cambio,Trek,331.25,5,314.69,23,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,4
+112,Timbre Modelo 754,Timbre,Giant,1646.77,10,1482.09,36,Timbre de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+113,Cadena Modelo 427,Cadena,Scott,2477.94,10,2230.15,32,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+114,Cassette Modelo 453,Cassette,Giant,519.84,10,467.86,23,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+115,Neumatico Modelo 147,Neumatico,SRAM,108.79,15,92.47,41,Neumatico de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+116,Frenos Modelo 176,Frenos,Specialized,243.45,0,243.45,46,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+117,Montana Modelo 532,Montana,Giant,475.71,0,475.71,11,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+118,Cadena Modelo 738,Cadena,Scott,187.82,0,187.82,1,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+119,Frenos Modelo 678,Frenos,Specialized,1281.01,5,1216.96,39,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+120,Luz Modelo 887,Luz,RockShox,2139.19,15,1818.31,16,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,1
+121,Candado Modelo 499,Candado,RockShox,2560.42,10,2304.38,21,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+122,Electrica Modelo 624,Electrica,Giant,2026.86,20,1621.49,22,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+123,Electrica Modelo 341,Electrica,RockShox,1953.23,15,1660.25,2,Electrica de alta calidad marca RockShox. Ideal para ciclistas exigentes.,1
+124,Carretera Modelo 799,Carretera,Specialized,2945.54,15,2503.71,41,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+125,Paseo Modelo 367,Paseo,SRAM,1355.44,20,1084.35,41,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,1
+126,Frenos Modelo 326,Frenos,Specialized,2875.86,15,2444.48,41,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+127,Cassette Modelo 404,Cassette,Giant,143.78,10,129.4,46,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,2
+128,Neumatico Modelo 246,Neumatico,Giant,2049.96,5,1947.46,8,Neumatico de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+129,Candado Modelo 161,Candado,Giant,993.79,20,795.03,19,Candado de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+130,Carretera Modelo 548,Carretera,Bontrager,2548.38,10,2293.54,17,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,3
+131,Neumatico Modelo 521,Neumatico,Scott,2347.96,10,2113.16,6,Neumatico de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+132,Paseo Modelo 866,Paseo,SRAM,1397.69,20,1118.15,27,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,3
+133,Casco Modelo 726,Casco,Specialized,838.53,10,754.68,41,Casco de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+134,Cadena Modelo 748,Cadena,Scott,112.04,5,106.44,9,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+135,Luz Modelo 502,Luz,Shimano,1160.65,0,1160.65,5,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,2
+136,Luz Modelo 218,Luz,Specialized,2209.17,10,1988.25,36,Luz de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+137,Carretera Modelo 967,Carretera,Specialized,512.61,5,486.98,50,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+138,Luz Modelo 784,Luz,Shimano,1269.31,20,1015.45,49,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,1
+139,Candado Modelo 431,Candado,RockShox,2096.59,15,1782.1,1,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+140,Guantes Modelo 179,Guantes,Giant,182.53,10,164.28,27,Guantes de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+141,Carretera Modelo 761,Carretera,Bontrager,2553.67,5,2425.99,3,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,4
+142,Candado Modelo 277,Candado,Specialized,976.4,0,976.4,48,Candado de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+143,Electrica Modelo 164,Electrica,Scott,2212.32,10,1991.09,28,Electrica de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+144,Montana Modelo 119,Montana,Giant,863.58,15,734.04,26,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+145,Carretera Modelo 962,Carretera,Bontrager,1283.93,0,1283.93,31,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,4
+146,Montana Modelo 963,Montana,Giant,1547.27,10,1392.54,7,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,2
+147,Luz Modelo 428,Luz,Specialized,1153.88,15,980.8,44,Luz de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+148,Timbre Modelo 944,Timbre,Giant,2336.22,15,1985.79,4,Timbre de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+149,Paseo Modelo 376,Paseo,SRAM,1775.58,15,1509.24,14,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+150,Cassette Modelo 616,Cassette,RockShox,2523.38,5,2397.21,4,Cassette de alta calidad marca RockShox. Ideal para ciclistas exigentes.,1
+151,Carretera Modelo 219,Carretera,Scott,2236.1,15,1900.68,13,Carretera de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+152,Cassette Modelo 285,Cassette,Giant,481.69,15,409.44,10,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+153,Luz Modelo 400,Luz,RockShox,2181.43,20,1745.14,39,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+154,Candado Modelo 368,Candado,RockShox,486.08,20,388.86,1,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+155,Timbre Modelo 150,Timbre,Shimano,2282.81,0,2282.81,44,Timbre de alta calidad marca Shimano. Ideal para ciclistas exigentes.,4
+156,Carretera Modelo 186,Carretera,Giant,1447.39,20,1157.91,34,Carretera de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+157,Cadena Modelo 697,Cadena,Scott,2519.73,5,2393.74,30,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+158,Casco Modelo 778,Casco,Shimano,2417.99,5,2297.09,49,Casco de alta calidad marca Shimano. Ideal para ciclistas exigentes.,1
+159,Infantil Modelo 398,Infantil,SRAM,2315.88,20,1852.7,47,Infantil de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+160,Carretera Modelo 767,Carretera,Giant,1895.68,10,1706.11,49,Carretera de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+161,Guantes Modelo 330,Guantes,Scott,341.45,5,324.38,45,Guantes de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+162,Timbre Modelo 431,Timbre,Giant,959.22,5,911.26,28,Timbre de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+163,Montana Modelo 675,Montana,Shimano,1547.75,20,1238.2,2,Montana de alta calidad marca Shimano. Ideal para ciclistas exigentes.,1
+164,Montana Modelo 826,Montana,Giant,2185.86,0,2185.86,12,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,2
+165,Frenos Modelo 611,Frenos,Specialized,1607.98,5,1527.58,1,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+166,Guantes Modelo 856,Guantes,Scott,2562.71,10,2306.44,15,Guantes de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+167,Neumatico Modelo 179,Neumatico,Giant,1665.55,10,1498.99,9,Neumatico de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+168,Carretera Modelo 601,Carretera,Bontrager,1872.99,15,1592.04,21,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,1
+169,Candado Modelo 516,Candado,Specialized,1969.83,20,1575.86,48,Candado de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+170,Paseo Modelo 264,Paseo,SRAM,2679.8,20,2143.84,49,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+171,Carretera Modelo 744,Carretera,Giant,447.39,20,357.91,9,Carretera de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+172,Neumatico Modelo 403,Neumatico,Giant,2095.83,15,1781.46,22,Neumatico de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+173,Neumatico Modelo 468,Neumatico,SRAM,2146.81,15,1824.79,37,Neumatico de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+174,Cadena Modelo 988,Cadena,Scott,1615.56,5,1534.78,26,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+175,Carretera Modelo 699,Carretera,Bontrager,2852.84,15,2424.91,28,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,4
+176,Neumatico Modelo 647,Neumatico,SRAM,2144.7,10,1930.23,12,Neumatico de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+177,Electrica Modelo 739,Electrica,Giant,1631.41,5,1549.84,9,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+178,Luz Modelo 280,Luz,RockShox,1040.09,0,1040.09,50,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+179,Guantes Modelo 576,Guantes,Scott,2443.84,5,2321.65,14,Guantes de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+180,Cadena Modelo 542,Cadena,Scott,350.76,15,298.15,28,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+181,Carretera Modelo 302,Carretera,Bontrager,1763.59,5,1675.41,35,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+182,Carretera Modelo 256,Carretera,Bontrager,2016.35,20,1613.08,43,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,1
+183,Montana Modelo 146,Montana,Giant,1221.09,0,1221.09,39,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+184,Carretera Modelo 621,Carretera,Bontrager,1270.13,20,1016.1,35,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,3
+185,Carretera Modelo 729,Carretera,Specialized,1433.09,5,1361.44,42,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+186,Cambio Modelo 973,Cambio,Specialized,1323.7,5,1257.51,42,Cambio de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+187,Timbre Modelo 879,Timbre,Giant,2709.95,15,2303.46,16,Timbre de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+188,Carretera Modelo 448,Carretera,Specialized,297.38,0,297.38,9,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+189,Paseo Modelo 318,Paseo,SRAM,1963.04,20,1570.43,6,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,1
+190,Candado Modelo 192,Candado,Giant,1506.42,5,1431.1,44,Candado de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+191,Carretera Modelo 251,Carretera,Specialized,1569.99,10,1412.99,31,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+192,Frenos Modelo 454,Frenos,Specialized,2043.58,20,1634.86,48,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+193,Frenos Modelo 535,Frenos,Specialized,1397.58,10,1257.82,43,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+194,Timbre Modelo 580,Timbre,Giant,1208.29,10,1087.46,11,Timbre de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+195,Candado Modelo 360,Candado,RockShox,2541.78,5,2414.69,12,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+196,Carretera Modelo 591,Carretera,Bontrager,1117.26,0,1117.26,40,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+197,Candado Modelo 102,Candado,RockShox,2912.7,0,2912.7,20,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+198,Cassette Modelo 770,Cassette,RockShox,2464.6,0,2464.6,11,Cassette de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+199,Infantil Modelo 624,Infantil,RockShox,2942.43,5,2795.31,48,Infantil de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+200,Electrica Modelo 827,Electrica,Scott,2708.73,15,2302.42,9,Electrica de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+201,Electrica Modelo 576,Electrica,Giant,1131.01,0,1131.01,39,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+202,Carretera Modelo 702,Carretera,Scott,497.15,15,422.58,47,Carretera de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+203,Carretera Modelo 449,Carretera,Specialized,2194.51,5,2084.78,10,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+204,Carretera Modelo 284,Carretera,Bontrager,293.77,15,249.7,29,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,3
+205,Neumatico Modelo 900,Neumatico,Scott,1580.06,20,1264.05,26,Neumatico de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+206,Candado Modelo 927,Candado,RockShox,1171.13,20,936.9,44,Candado de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+207,Cadena Modelo 288,Cadena,Scott,317.03,0,317.03,5,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+208,Timbre Modelo 100,Timbre,Bontrager,697.32,0,697.32,24,Timbre de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,3
+209,Guantes Modelo 819,Guantes,Scott,1474.41,10,1326.97,41,Guantes de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+210,Luz Modelo 417,Luz,RockShox,972.71,10,875.44,33,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,1
+211,Luz Modelo 270,Luz,Shimano,619.12,10,557.21,44,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,3
+212,Electrica Modelo 457,Electrica,Scott,400.8,20,320.64,32,Electrica de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+213,Candado Modelo 781,Candado,Specialized,1987.43,10,1788.69,25,Candado de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+214,Cambio Modelo 429,Cambio,Trek,219.0,20,175.2,44,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,2
+215,Neumatico Modelo 318,Neumatico,Giant,2841.75,20,2273.4,42,Neumatico de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+216,Paseo Modelo 426,Paseo,SRAM,1068.22,20,854.58,2,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,3
+217,Cadena Modelo 636,Cadena,Trek,2561.3,15,2177.11,22,Cadena de alta calidad marca Trek. Ideal para ciclistas exigentes.,3
+218,Montana Modelo 848,Montana,Giant,616.39,20,493.11,43,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,2
+219,Luz Modelo 803,Luz,RockShox,1293.35,10,1164.01,6,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+220,Paseo Modelo 763,Paseo,SRAM,2954.45,15,2511.28,37,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,3
+221,Carretera Modelo 513,Carretera,Specialized,2715.72,0,2715.72,45,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+222,Cadena Modelo 129,Cadena,Scott,2286.63,15,1943.64,32,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+223,Casco Modelo 114,Casco,Specialized,2456.88,0,2456.88,19,Casco de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+224,Casco Modelo 905,Casco,Shimano,2967.98,20,2374.38,28,Casco de alta calidad marca Shimano. Ideal para ciclistas exigentes.,4
+225,Neumatico Modelo 173,Neumatico,SRAM,2715.95,5,2580.15,2,Neumatico de alta calidad marca SRAM. Ideal para ciclistas exigentes.,2
+226,Cassette Modelo 117,Cassette,Giant,611.25,15,519.56,4,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+227,Guantes Modelo 178,Guantes,Giant,2434.18,0,2434.18,28,Guantes de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+228,Carretera Modelo 216,Carretera,Specialized,2659.46,10,2393.51,15,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+229,Cassette Modelo 559,Cassette,SRAM,2313.03,5,2197.38,27,Cassette de alta calidad marca SRAM. Ideal para ciclistas exigentes.,1
+230,Carretera Modelo 898,Carretera,Bontrager,1215.11,0,1215.11,29,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,3
+231,Candado Modelo 574,Candado,Specialized,1781.86,10,1603.67,28,Candado de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+232,Luz Modelo 515,Luz,Shimano,2019.76,10,1817.78,28,Luz de alta calidad marca Shimano. Ideal para ciclistas exigentes.,3
+233,Luz Modelo 913,Luz,Specialized,123.89,15,105.31,2,Luz de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+234,Cassette Modelo 681,Cassette,RockShox,2097.59,5,1992.71,38,Cassette de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+235,Electrica Modelo 373,Electrica,Giant,747.37,20,597.9,30,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+236,Casco Modelo 564,Casco,Specialized,2250.15,20,1800.12,38,Casco de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+237,Luz Modelo 714,Luz,RockShox,2606.78,15,2215.76,3,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,3
+238,Casco Modelo 592,Casco,Trek,2279.46,20,1823.57,44,Casco de alta calidad marca Trek. Ideal para ciclistas exigentes.,3
+239,Cadena Modelo 248,Cadena,Scott,244.47,20,195.58,40,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+240,Carretera Modelo 152,Carretera,Specialized,520.39,5,494.37,24,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+241,Cadena Modelo 798,Cadena,Scott,1665.27,15,1415.48,48,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,3
+242,Luz Modelo 186,Luz,RockShox,157.81,15,134.14,34,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+243,Casco Modelo 486,Casco,SRAM,887.63,15,754.49,6,Casco de alta calidad marca SRAM. Ideal para ciclistas exigentes.,1
+244,Neumatico Modelo 170,Neumatico,Giant,1579.9,5,1500.9,35,Neumatico de alta calidad marca Giant. Ideal para ciclistas exigentes.,1
+245,Cadena Modelo 474,Cadena,Trek,656.81,20,525.45,47,Cadena de alta calidad marca Trek. Ideal para ciclistas exigentes.,4
+246,Carretera Modelo 813,Carretera,Shimano,2226.46,5,2115.14,35,Carretera de alta calidad marca Shimano. Ideal para ciclistas exigentes.,3
+247,Luz Modelo 383,Luz,RockShox,1828.42,0,1828.42,39,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+248,Luz Modelo 123,Luz,RockShox,751.01,20,600.81,9,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+249,Carretera Modelo 357,Carretera,Bontrager,1130.91,0,1130.91,39,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+250,Montana Modelo 462,Montana,Giant,1193.15,15,1014.18,3,Montana de alta calidad marca Giant. Ideal para ciclistas exigentes.,2
+251,Cadena Modelo 968,Cadena,Scott,2941.74,10,2647.57,13,Cadena de alta calidad marca Scott. Ideal para ciclistas exigentes.,2
+252,Neumatico Modelo 998,Neumatico,Bontrager,623.13,20,498.5,26,Neumatico de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+253,Electrica Modelo 117,Electrica,Scott,2234.65,15,1899.45,19,Electrica de alta calidad marca Scott. Ideal para ciclistas exigentes.,4
+254,Frenos Modelo 561,Frenos,Specialized,2764.54,20,2211.63,34,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+255,Infantil Modelo 492,Infantil,RockShox,2313.34,0,2313.34,35,Infantil de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+256,Cassette Modelo 233,Cassette,Giant,1252.1,15,1064.28,24,Cassette de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+257,Neumatico Modelo 837,Neumatico,Bontrager,1786.86,5,1697.52,18,Neumatico de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,2
+258,Timbre Modelo 748,Timbre,Shimano,727.93,20,582.34,32,Timbre de alta calidad marca Shimano. Ideal para ciclistas exigentes.,3
+259,Frenos Modelo 871,Frenos,Specialized,405.66,0,405.66,34,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+260,Frenos Modelo 148,Frenos,Specialized,504.13,20,403.3,16,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+261,Electrica Modelo 872,Electrica,Giant,1983.69,0,1983.69,24,Electrica de alta calidad marca Giant. Ideal para ciclistas exigentes.,4
+262,Casco Modelo 503,Casco,Shimano,243.67,10,219.3,24,Casco de alta calidad marca Shimano. Ideal para ciclistas exigentes.,4
+263,Guantes Modelo 373,Guantes,Scott,1332.28,20,1065.82,25,Guantes de alta calidad marca Scott. Ideal para ciclistas exigentes.,1
+264,Cambio Modelo 267,Cambio,Trek,1450.2,15,1232.67,5,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,2
+265,Electrica Modelo 749,Electrica,RockShox,2933.45,10,2640.11,9,Electrica de alta calidad marca RockShox. Ideal para ciclistas exigentes.,4
+266,Casco Modelo 114,Casco,Specialized,995.3,15,846.0,48,Casco de alta calidad marca Specialized. Ideal para ciclistas exigentes.,3
+267,Candado Modelo 384,Candado,Giant,171.93,10,154.74,44,Candado de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
+268,Cadena Modelo 313,Cadena,Trek,457.25,10,411.53,35,Cadena de alta calidad marca Trek. Ideal para ciclistas exigentes.,2
+269,Paseo Modelo 515,Paseo,RockShox,2775.12,15,2358.85,9,Paseo de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+270,Luz Modelo 995,Luz,RockShox,1578.31,0,1578.31,9,Luz de alta calidad marca RockShox. Ideal para ciclistas exigentes.,2
+271,Cambio Modelo 337,Cambio,Trek,2419.21,15,2056.33,45,Cambio de alta calidad marca Trek. Ideal para ciclistas exigentes.,1
+272,Timbre Modelo 968,Timbre,Bontrager,706.06,0,706.06,1,Timbre de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,4
+273,Frenos Modelo 377,Frenos,Specialized,1147.06,20,917.65,23,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,2
+274,Casco Modelo 564,Casco,Specialized,184.69,10,166.22,8,Casco de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+275,Cadena Modelo 758,Cadena,Trek,556.66,15,473.16,29,Cadena de alta calidad marca Trek. Ideal para ciclistas exigentes.,2
+276,Timbre Modelo 218,Timbre,Shimano,939.14,0,939.14,50,Timbre de alta calidad marca Shimano. Ideal para ciclistas exigentes.,3
+277,Carretera Modelo 785,Carretera,Specialized,452.16,0,452.16,48,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+278,Casco Modelo 646,Casco,Trek,1753.92,0,1753.92,34,Casco de alta calidad marca Trek. Ideal para ciclistas exigentes.,2
+279,Carretera Modelo 564,Carretera,Bontrager,2044.62,20,1635.7,36,Carretera de alta calidad marca Bontrager. Ideal para ciclistas exigentes.,1
+280,Carretera Modelo 201,Carretera,Specialized,685.39,20,548.31,19,Carretera de alta calidad marca Specialized. Ideal para ciclistas exigentes.,4
+281,Frenos Modelo 227,Frenos,Specialized,2363.45,15,2008.93,33,Frenos de alta calidad marca Specialized. Ideal para ciclistas exigentes.,1
+282,Neumatico Modelo 569,Neumatico,SRAM,2424.81,10,2182.33,8,Neumatico de alta calidad marca SRAM. Ideal para ciclistas exigentes.,1
+283,Paseo Modelo 413,Paseo,SRAM,646.5,0,646.5,21,Paseo de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+284,Cassette Modelo 553,Cassette,SRAM,2252.0,15,1914.2,13,Cassette de alta calidad marca SRAM. Ideal para ciclistas exigentes.,4
+285,Carretera Modelo 181,Carretera,Giant,1249.13,15,1061.76,25,Carretera de alta calidad marca Giant. Ideal para ciclistas exigentes.,3
