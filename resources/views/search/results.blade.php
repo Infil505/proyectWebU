@@ -6,17 +6,24 @@
 <h3>Resultados para: <em>{{ $query }}</em></h3>
 
 @if ($results->count())
-    <ul class="uk-list uk-list-striped">
+    <div class="uk-grid-match uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
         @foreach ($results as $item)
-            <li>
-                <a href="{{ route('items.show', $item) }}">
-                    <strong>{{ $item->name }}</strong> - {{ $item->brand }} (€{{ number_format($item->final_price, 2) }})
-                </a>
-            </li>
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">{{ $item->name }}</h3>
+                        <p><strong>Marca:</strong> {{ $item->brand }}</p>
+                        <p><strong>Precio:</strong> €{{ number_format($item->final_price, 2) }}</p>
+                        <a href="{{ route('items.show', $item) }}" class="uk-button uk-button-primary">Ver detalle</a>
+                    </div>
+                </div>
+            </div>
         @endforeach
-    </ul>
+    </div>
 
-    {{ $results->links() }}
+    <div class="uk-margin-top">
+        {{ $results->links() }}
+    </div>
 @else
     <p>No se encontraron resultados para <strong>"{{ $query }}"</strong>.</p>
 @endif

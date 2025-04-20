@@ -10,8 +10,7 @@ use Laravel\Pail\ValueObjects\Origin\Console;
 
 class ItemController extends Controller
 {
-    // Lista ítems por categoría
-    // Lista ítems por categoría
+
     public function index(Category $category, Request $request)
     {
         $query = Item::with('category')->where('category_id', $category->id);
