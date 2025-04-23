@@ -1,4 +1,3 @@
-{{-- Selector de categoría con botón de creación --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="category_id">Categoría</label>
     <div class="uk-form-controls uk-flex uk-flex-middle uk-flex-between">
@@ -21,56 +20,48 @@
     </div>
 </div>
 
-{{-- Nombre --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="name">Nombre</label>
     <input class="uk-input" type="text" name="name" id="name" required
         value="{{ old('name', $item->name ?? '') }}">
 </div>
 
-{{-- Tipo --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="type">Tipo</label>
     <input class="uk-input" type="text" name="type" id="type" required
         value="{{ old('type', $item->type ?? '') }}">
 </div>
 
-{{-- Marca --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="brand">Marca</label>
     <input class="uk-input" type="text" name="brand" id="brand" required
         value="{{ old('brand', $item->brand ?? '') }}">
 </div>
 
-{{-- Precio --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="price">Precio</label>
     <input class="uk-input" type="number" step="0.01" name="price" id="price" required
         value="{{ old('price', $item->price ?? '') }}">
 </div>
 
-{{-- Descuento --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="discount">Descuento</label>
     <input class="uk-input" type="number" step="0.01" name="discount" id="discount" required
         value="{{ old('discount', $item->discount ?? '') }}">
 </div>
 
-{{-- Precio final --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="final_price">Precio Final</label>
     <input class="uk-input" type="number" step="0.01" name="final_price" id="final_price" required
         value="{{ old('final_price', $item->final_price ?? '') }}">
 </div>
 
-{{-- Stock --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="stock">Stock</label>
     <input class="uk-input" type="number" name="stock" id="stock" required
         value="{{ old('stock', $item->stock ?? '') }}">
 </div>
 
-{{-- Descripción corta --}}
 <div class="uk-margin">
     <label class="uk-form-label" for="short_description">Descripción corta</label>
     <textarea class="uk-textarea" name="short_description" id="short_description" required>{{ old('short_description', $item->short_description ?? '') }}</textarea>

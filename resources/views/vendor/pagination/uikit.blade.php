@@ -1,7 +1,6 @@
 @if ($paginator->hasPages())
     <ul class="uk-pagination uk-flex-center uk-margin-medium-top uk-margin-medium-bottom">
 
-        {{-- Página anterior --}}
         @if ($paginator->onFirstPage())
             <li class="uk-disabled">
                 <span class="uk-button uk-button-small uk-border-pill uk-margin-small-right">Anterior</span>
@@ -12,16 +11,13 @@
             </li>
         @endif
 
-        {{-- Números de páginas --}}
         @foreach ($elements as $element)
-            {{-- Separador de páginas --}}
             @if (is_string($element))
                 <li class="uk-disabled">
                     <span class="uk-text-muted uk-padding-small">{{ $element }}</span>
                 </li>
             @endif
 
-            {{-- Enlaces de páginas --}}
             @if (is_array($element))
                 @foreach ($element as $page => $url)
                     @if ($page == $paginator->currentPage())
@@ -37,7 +33,6 @@
             @endif
         @endforeach
 
-        {{-- Página siguiente --}}
         @if ($paginator->hasMorePages())
             <li>
                 <a href="{{ $paginator->nextPageUrl() }}" rel="next" class="uk-button uk-button-default uk-button-small uk-border-pill hover-effect">Siguiente</a>
@@ -50,7 +45,6 @@
 
     </ul>
 
-    {{-- Estilos adicionales --}}
     <style>
         .uk-pagination .hover-effect {
             transition: all 0.2s ease;
@@ -65,7 +59,7 @@
         .uk-pagination .uk-disabled {
             opacity: 0.5;
         }
-        /* Ocultar cualquier icono que pueda ser agregado automáticamente */
+
         .uk-pagination a[rel="prev"]::before, 
         .uk-pagination a[rel="next"]::after,
         .uk-pagination span[uk-pagination-previous],

@@ -6,7 +6,6 @@
 
     <div class="uk-container uk-margin-large-top">
 
-        {{-- Encabezado y botón --}}
         <div class="uk-flex uk-flex-between uk-flex-middle uk-margin-bottom">
             <h2 class="uk-heading-line uk-margin-remove-bottom">
                 <span>
@@ -50,7 +49,6 @@
                 @endforeach
             </div>
 
-            {{-- Paginación --}}
             <div class="uk-margin-large-top uk-text-center">
                 {{ $items->appends(request()->query())->links('vendor.pagination.uikit') }}
             </div>

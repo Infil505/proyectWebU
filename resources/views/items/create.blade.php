@@ -6,10 +6,8 @@
 <div class="uk-container uk-margin-large-top">
     <h2 class="uk-heading-line"><span>Nuevo artículo</span></h2>
 
-    {{-- Mostrar errores de validación --}}
     @include('partials.errors')
 
-    {{-- Formulario de creación --}}
     <form action="{{ route('items.store') }}" method="POST" class="uk-form-stacked" id="item-form">
         @csrf
         @include('items.form', ['item' => null, 'mode' => 'create'])
@@ -21,14 +19,13 @@
     </form>
 </div>
 
-{{-- Script para mostrar info al enviar --}}
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const form = document.getElementById("item-form");
         const categorySelect = document.getElementById("category_id");
 
         form.addEventListener("submit", function (event) {
-            event.preventDefault(); // Previene el envío automático
+            event.preventDefault(); 
 
             const selectedOption = categorySelect.options[categorySelect.selectedIndex];
 
@@ -44,7 +41,6 @@
 
             alert(`Datos listos para enviar:\nCategoría: ${selectedOption.text} (ID: ${categorySelect.value})`);
 
-            // Esperar un segundo antes de enviar
             setTimeout(() => {
                 console.log("✅ Enviando formulario...");
                 form.submit();
