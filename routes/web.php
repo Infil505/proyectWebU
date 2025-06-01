@@ -7,13 +7,11 @@ use App\Http\Controllers\SearchController;
 
 /*
 |--------------------------------------------------------------------------
-| Rutas principales
+| Página principal
 |--------------------------------------------------------------------------
 */
 
-// Página inicial → listado de categorías
-Route::get('/', [CategoryController::class, 'index'])->name('categories.index');
-
+Route::get('/', [CategoryController::class, 'index'])->name('categorias.index');
 
 /*
 |--------------------------------------------------------------------------
@@ -21,15 +19,16 @@ Route::get('/', [CategoryController::class, 'index'])->name('categories.index');
 |--------------------------------------------------------------------------
 */
 
-// Formulario para crear categoría
-Route::get('/categories/create', [CategoryController::class, 'create'])->name('categories.create');
+Route::prefix('categorias')->group(function () {
+    // Formulario para crear categoría
+    Route::get('/create', [CategoryController::class, 'create'])->name('categorias.create');
 
-// Guardar nueva categoría
-Route::post('/categories', [CategoryController::class, 'store'])->name('categories.store');
+    // Guardar nueva categoría
+    Route::post('/', [CategoryController::class, 'store'])->name('categorias.store');
 
-// Ver ítems dentro de una categoría
-Route::get('/categories/{category}', [ItemController::class, 'index'])->name('items.byCategory');
-
+    // Ver ítems dentro de una categoría
+    Route::get('/{category}', [ItemController::class, 'index'])->name('items.byCategory');
+});
 
 /*
 |--------------------------------------------------------------------------
@@ -37,24 +36,25 @@ Route::get('/categories/{category}', [ItemController::class, 'index'])->name('it
 |--------------------------------------------------------------------------
 */
 
-// Crear ítem
-Route::get('/items/create', [ItemController::class, 'create'])->name('items.create');
+Route::prefix('items')->group(function () {
+    // Formulario para crear ítem (opcionalmente con categoría)
+    Route::get('/create', [ItemController::class, 'create'])->name('items.create');
 
-// Guardar ítem
-Route::post('/items', [ItemController::class, 'store'])->name('items.store');
+    // Guardar ítem
+    Route::post('/', [ItemController::class, 'store'])->name('items.store');
 
-// Editar ítem
-Route::get('/items/{item}/edit', [ItemController::class, 'edit'])->name('items.edit');
+    // Formulario para editar ítem
+    Route::get('/{item}/edit', [ItemController::class, 'edit'])->name('items.edit');
 
-// Actualizar ítem
-Route::put('/items/{item}', [ItemController::class, 'update'])->name('items.update');
+    // Actualizar ítem
+    Route::put('/{item}', [ItemController::class, 'update'])->name('items.update');
 
-// Eliminar ítem
-Route::delete('/items/{item}', [ItemController::class, 'destroy'])->name('items.destroy');
+    // Eliminar ítem
+    Route::delete('/{item}', [ItemController::class, 'destroy'])->name('items.destroy');
 
-// Ver detalle del ítem
-Route::get('/items/{item}', [ItemController::class, 'show'])->name('items.show');
-
+    // Ver detalle del ítem
+    Route::get('/{item}', [ItemController::class, 'show'])->name('items.show');
+});
 
 /*
 |--------------------------------------------------------------------------
@@ -62,4 +62,5 @@ Route::get('/items/{item}', [ItemController::class, 'show'])->name('items.show')
 |--------------------------------------------------------------------------
 */
 
-Route::get('/search', [SearchController::class, 'search'])->name('items.search');
+// Buscador de ítems
+Route::get('/items/search', [SearchController::class, 'search'])->name('items.search');

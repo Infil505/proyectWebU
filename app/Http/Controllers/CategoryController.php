@@ -1,32 +1,37 @@
 <?php
+
 namespace App\Http\Controllers;
-use Illuminate\Http\Request;
 
 use App\Models\Category;
+use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class CategoryController extends Controller
 {
     public function index()
-    {
-        $categories = Category::all();
-        return view('categories.index', compact('categories'));
-    }
+{
+    $categorias = Category::with('items')->get();
+
+    return Inertia::render('categorias/index', [
+        'categorias' => $categorias
+    ]);
+}
+
 
     public function create()
-{
-    return view('categories.create');
-}
+    {
+        return Inertia::render('categorias/create');
+    }
 
-public function store(Request $request)
-{
-    $validated = $request->validate([
-        'categoria' => 'required|string|max:255',
-        'codigo' => 'required|string|max:100|unique:categories,codigo',
-    ]);
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'categoria' => 'required|string|max:255',
+            'codigo' => 'required|string|max:100|unique:categorias,codigo',
+        ]);
 
-    Category::create($validated);
+        Category::create($validated);
 
-    return redirect()->back()->with('success', 'Categoría creada correctamente.');
-}
-
+        return redirect()->route('categorias.index')->with('success', 'Categoría creada correctamente.');
+    }
 }
