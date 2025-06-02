@@ -1,5 +1,8 @@
 <template>
   <div class="uk-container uk-margin-large-top">
+
+    <SearchForm />
+
     <div class="uk-flex uk-flex-between uk-flex-middle uk-margin-bottom">
       <h2 class="uk-heading-line uk-margin-remove-bottom">
         <span>
@@ -79,6 +82,7 @@
 
 <script setup>
 import { Link, router } from '@inertiajs/vue3';
+import SearchForm from '@/pages/components/search.vue';
 
 const props = defineProps({
   category: {
@@ -95,7 +99,7 @@ const props = defineProps({
   },
 });
 
-// Eliminar ítem
+// Eliminar ítem - actualizado
 const deleteItem = (id) => {
   if (!id) {
     alert('ID del ítem no está definido.');
@@ -103,7 +107,6 @@ const deleteItem = (id) => {
   }
 
   if (confirm('¿Estás seguro de que deseas eliminar este ítem?')) {
-    // Cambiado a POST con _method: DELETE
     router.post(`/items/${id}`, { _method: 'DELETE' }, {
       onSuccess: () => {
         alert('¡Ítem eliminado correctamente!');

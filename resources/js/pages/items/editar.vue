@@ -1,6 +1,6 @@
 <template>
   <div class="edit-container">
-    <h1>Agregar nuevo ítem</h1>
+    <h1>Editar ítem: {{ form.name }}</h1>
 
     <div v-if="errorsArray.length" class="uk-alert-danger" uk-alert>
       <a class="uk-alert-close" uk-close></a>
@@ -66,8 +66,8 @@
       </div>
 
       <div class="uk-margin uk-flex uk-flex-between uk-flex-middle">
-        <button type="submit" class="uk-button uk-button-primary">Guardar ítem</button>
-        <Link :href="categoryId ? `/categorias/${categoryId}` : '/'" class="uk-button uk-button-default">← Volver</Link>
+        <button type="submit" class="uk-button uk-button-primary">Actualizar ítem</button>
+        <Link :href="`/items/${item.id}`" class="uk-button uk-button-default">← Volver</Link>
       </div>
     </form>
   </div>
@@ -79,8 +79,8 @@ import { Link } from '@inertiajs/vue3';
 
 export default {
   props: {
+    item: Object,
     categories: Array,
-    categoryId: [Number, String],
     errors: Object
   },
   components: {
@@ -89,13 +89,13 @@ export default {
   data() {
     return {
       form: {
-        name: '',
-        brand: '',
-        type: '',
-        stock: 0,
-        price: 0,
-        discount: 0,
-        category_id: this.categoryId || ''
+        name: this.item.name || '',
+        brand: this.item.brand || '',
+        type: this.item.type || '',
+        stock: this.item.stock || 0,
+        price: this.item.price || 0,
+        discount: this.item.discount || 0,
+        category_id: this.item.category_id || ''
       }
     };
   },
@@ -106,12 +106,12 @@ export default {
   },
   methods: {
     submitForm() {
-      Inertia.post('/items', this.form, {
+      Inertia.put(`/items/${this.item.id}`, this.form, {
         onSuccess: () => {
-          alert('¡Ítem creado correctamente!');
+          alert('¡Ítem actualizado correctamente!');
         },
         onError: () => {
-          alert('Error al crear el ítem.');
+          alert('Error al actualizar el ítem.');
         }
       });
     }

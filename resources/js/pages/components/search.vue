@@ -1,19 +1,15 @@
 <template>
   <form
-    action="/items/search"
-    method="GET"
+    @submit.prevent="search"
     class="uk-margin"
   >
     <div class="uk-inline">
-      <a
-        class="uk-form-icon uk-form-icon-flip"
-        uk-icon="icon: search"
-      ></a>
+      <a class="uk-form-icon uk-form-icon-flip" uk-icon="icon: search"></a>
       <input
+        v-model="query"
         class="uk-input"
         type="text"
         name="q"
-        :value="currentQuery"
         placeholder="Buscar producto..."
       />
     </div>
@@ -21,8 +17,12 @@
 </template>
 
 <script setup>
-import { usePage } from '@inertiajs/vue3';
+import { ref } from 'vue';
+import { router } from '@inertiajs/vue3';
 
-// Obtenemos el valor actual de la query para mantenerlo en el input
-const currentQuery = new URLSearchParams(window.location.search).get('q') || '';
+const query = ref(new URLSearchParams(window.location.search).get('q') || '');
+
+const search = () => {
+  router.get('/items/search', { q: query.value }, { preserveState: true });
+};
 </script>

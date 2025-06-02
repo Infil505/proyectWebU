@@ -29,41 +29,43 @@ class ItemController extends Controller
     }
 
     public function create(Request $request)
-    {
-        $categories = Category::all();
-        $categoryId = $request->input('category');
+{
+    $categories = Category::all(['id', 'categoria']); 
+    $categoryId = $request->input('category');
 
-        return Inertia::render('items/create', [
-            'categories' => $categories,
-            'categoryId' => $categoryId
-        ]);
-    }
+    return Inertia::render('items/create', [
+        'categories' => $categories,
+        'categoryId' => $categoryId ?? ''
+    ]);
+}
+
 
     public function edit(Item $item)
     {
         $categories = Category::all();
 
-        return Inertia::render('items/edit', [
+        return Inertia::render('items/editar', [
             'item' => $item,
             'categories' => $categories
         ]);
     }
 
     public function store(StoreItemRequest $request)
-    {
-        $item = Item::create($request->validated());
+{
+    $item = Item::create($request->validated());
 
-        return redirect()->route('items.show', $item)
-            ->with('success', '¡Ítem creado correctamente!');
-    }
+    return Inertia::location(route('items.show', $item));
+}
 
-    public function update(UpdateItemRequest $request, Item $item)
-    {
-        $item->update($request->validated());
 
-        return redirect()->route('items.show', $item)
-            ->with('success', '¡Ítem actualizado correctamente!');
-    }
+public function update(Request $request, $id)
+{
+    $item = Item::findOrFail($id);
+    $item->update($request->all());
+    return redirect()->route('items.show', $item)->with('success', '¡Ítem actualizado correctamente!');
+}
+
+
 
     public function show(Item $item)
     {

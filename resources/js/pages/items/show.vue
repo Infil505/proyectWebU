@@ -2,13 +2,10 @@
   <article class="uk-article">
     <h2 class="uk-article-title">{{ item.name }}</h2>
 
-    <div
-      class="uk-grid-small uk-child-width-1-2@s"
-      uk-grid
-    >
+    <div class="uk-grid-small uk-child-width-1-2@s" uk-grid>
       <div>
         <ul class="uk-list uk-list-divider">
-          <li><strong>Categoría:</strong> {{ item.category?.name || '' }}</li>
+          <li><strong>Categoría:</strong> {{ item.category?.name || 'Sin categoría' }}</li>
           <li><strong>Tipo:</strong> {{ item.type }}</li>
           <li><strong>Marca:</strong> {{ item.brand }}</li>
           <li><strong>Stock disponible:</strong> {{ item.stock }}</li>
@@ -31,32 +28,29 @@
     <div class="uk-margin-top">
       <Link
         :href="`/items/${item.id}/edit`"
-        class="uk-button uk-button-default"
+        class="uk-button uk-button-primary"
       >
         Editar
       </Link>
-
-      <button
-        class="uk-button uk-button-danger"
-        @click="deleteItem"
-      >
-        Eliminar
-      </button>
     </div>
   </article>
 </template>
 
 <script setup>
-import { Inertia } from '@inertiajs/inertia';
-import { Link, usePage } from '@inertiajs/vue3';
+import { Link } from '@inertiajs/vue3';
 
-// Obtenemos el item desde los props que envía Inertia
-const { item } = usePage().props.value;
-
-// Función para eliminar el ítem
-const deleteItem = () => {
-  if (confirm('¿Estás seguro de que deseas eliminar este ítem?')) {
-    Inertia.delete(`/items/${item.id}`);
+const props = defineProps({
+  item: {
+    type: Object,
+    required: true
   }
-};
+});
+
+const { item } = props;
 </script>
+
+<style scoped>
+.uk-margin-top {
+  margin-top: 1.5rem;
+}
+</style>
