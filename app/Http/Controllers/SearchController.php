@@ -17,7 +17,7 @@ class SearchController extends Controller
             ->orWhere('short_description', 'like', "%{$query}%")
             ->paginate(10);
 
-        return Inertia::render('search/Results', [
+        return Inertia::render('search/Results', props: [
             'results' => $results,
             'query' => $query
         ]);

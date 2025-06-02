@@ -37,30 +37,14 @@ Route::prefix('categorias')->group(function () {
 */
 
 Route::prefix('items')->group(function () {
-    // Formulario para crear ítem (opcionalmente con categoría)
+    // ✅ Mueve la búsqueda arriba de la ruta con parámetro
+    Route::get('/search', [SearchController::class, 'search'])->name('items.search');
+
+    // Otras rutas
     Route::get('/create', [ItemController::class, 'create'])->name('items.create');
-
-    // Guardar ítem
     Route::post('/', [ItemController::class, 'store'])->name('items.store');
-
-    // Formulario para editar ítem
     Route::get('/{item}/edit', [ItemController::class, 'edit'])->name('items.edit');
-
-    // Actualizar ítem
     Route::put('/{item}', [ItemController::class, 'update'])->name('items.update');
-
-    // Eliminar ítem
     Route::delete('/{item}', [ItemController::class, 'destroy'])->name('items.destroy');
-
-    // Ver detalle del ítem
     Route::get('/{item}', [ItemController::class, 'show'])->name('items.show');
 });
-
-/*
-|--------------------------------------------------------------------------
-| Búsqueda
-|--------------------------------------------------------------------------
-*/
-
-// Buscador de ítems
-Route::get('/items/search', [SearchController::class, 'search'])->name('items.search');

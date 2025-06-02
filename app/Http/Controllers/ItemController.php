@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Item;
 use App\Models\Category;
 use App\Http\Requests\StoreItemRequest;
-use App\Http\Requests\UpdateItemRequest;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -14,13 +13,10 @@ class ItemController extends Controller
     public function index(Category $category, Request $request)
     {
         $query = Item::with('category')->where('category_id', $category->id);
-
         if ($request->has('tipo')) {
             $query->where('type', operator: $request->tipo);
         }
-
         $items = $query->paginate(10);
-
         return Inertia::render('items/index', [
             'category' => $category,
             'items' => $items,
@@ -32,7 +28,6 @@ class ItemController extends Controller
     {
         $categories = Category::all(['id', 'categoria']);
         $categoryId = $request->input('category');
-
         return Inertia::render('items/create', [
             'categories' => $categories,
             'categoryId' => $categoryId ?? ''
@@ -43,7 +38,6 @@ class ItemController extends Controller
     public function edit(Item $item)
     {
         $categories = Category::all();
-
         return Inertia::render('items/editar', [
             'item' => $item,
             'categories' => $categories
@@ -57,7 +51,6 @@ class ItemController extends Controller
         return Inertia::location(route('items.show', $item));
     }
 
-
     public function update(Request $request, $id)
     {
         $item = Item::findOrFail($id);
@@ -68,7 +61,6 @@ class ItemController extends Controller
     public function show(Item $item)
     {
         $item->load('category');
-
         return Inertia::render('items/show', [
             'item' => $item
         ]);
@@ -77,7 +69,6 @@ class ItemController extends Controller
     public function destroy(Item $item)
     {
         $item->delete();
-
         return redirect()->route('categorias.index')
             ->with('success', '¡Ítem eliminado correctamente!');
     }
