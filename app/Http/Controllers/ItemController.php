@@ -29,15 +29,15 @@ class ItemController extends Controller
     }
 
     public function create(Request $request)
-{
-    $categories = Category::all(['id', 'categoria']); 
-    $categoryId = $request->input('category');
+    {
+        $categories = Category::all(['id', 'categoria']);
+        $categoryId = $request->input('category');
 
-    return Inertia::render('items/create', [
-        'categories' => $categories,
-        'categoryId' => $categoryId ?? ''
-    ]);
-}
+        return Inertia::render('items/create', [
+            'categories' => $categories,
+            'categoryId' => $categoryId ?? ''
+        ]);
+    }
 
 
     public function edit(Item $item)
@@ -51,21 +51,19 @@ class ItemController extends Controller
     }
 
     public function store(StoreItemRequest $request)
-{
-    $item = Item::create($request->validated());
+    {
+        $item = Item::create($request->validated());
 
-    return Inertia::location(route('items.show', $item));
-}
-
-
-public function update(Request $request, $id)
-{
-    $item = Item::findOrFail($id);
-    $item->update($request->all());
-    return redirect()->route('items.show', $item)->with('success', '¡Ítem actualizado correctamente!');
-}
+        return Inertia::location(route('items.show', $item));
+    }
 
 
+    public function update(Request $request, $id)
+    {
+        $item = Item::findOrFail($id);
+        $item->update($request->all());
+        return redirect()->route('items.show', $item)->with('success', '¡Ítem actualizado correctamente!');
+    }
 
     public function show(Item $item)
     {
